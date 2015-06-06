@@ -1,0 +1,29 @@
+{
+  "name": "angular-basicauth",
+  "main": "angular-basicauth.js",
+  "version": "0.3.0",
+  "authors": [
+    "Ian Kelly <iandotkelly@gmail.com>"
+  ],
+  "description": "Simple basic authentication service for AngularJs",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "Copyright (C) Ian Kelly 2014",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.15",
+    "angular-local-storage": "0.1.4",
+    "angular-base64": "2.0.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.15",
+    "sinonjs": "~1.14.1"
+  }
+}

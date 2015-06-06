@@ -1,0 +1,15 @@
+'use strict';
+
+/* Controllers */
+var granuleApp = angular.module('granuleApp', []);
+
+phonecatApp.controller('ActivityListCtrl', function ($scope) {
+  $scope.activities = [
+    {'name': 'Line Test Activity',
+     'snippet': 'Fast just got faster with Nexus S.'},
+    {'name': 'Power Test Activity',
+     'snippet': 'The Next, Next Generation tablet.'},
+    {'name': 'Statistics Test Activity',
+     'snippet': 'The Next, Next Generation tablet.'}
+  ];
+});

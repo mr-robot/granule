@@ -1,0 +1,24 @@
+'use strict';
+
+/* jasmine specs for controllers go here */
+
+describe('controllers', function() {
+
+  it("should do something", function() {
+
+  });
+
+});
+
+describe('ActivityListCtrl', function(){
+
+  beforeEach(module('granuleApp'));
+
+  it('should create "activities" model with 3 activities', inject(function($controller) {
+    var scope = {},
+        ctrl = $controller('ActivityListCtrl', {$scope:scope});
+
+    expect(scope.activities.length).toBe(2);
+  }));
+
+});
